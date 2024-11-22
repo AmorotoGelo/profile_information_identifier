@@ -1,7 +1,8 @@
 # Open txt file to read informations
-
-# Ask user for a full name
-
+with open(".\\user_information.txt", "r") as profile_identifier:
+    # Ask user for a full name
+    while True:
+        name = input('Input a full name to identify information: ')
 # Read the informations in txt file
 
 # Use for loop to identify the name in txt file
